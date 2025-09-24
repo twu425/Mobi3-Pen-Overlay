@@ -1,0 +1,22 @@
+{
+  "name": "3axismouseoverlay",
+  "version": "1.0.0",
+  "description": "temp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twu425/3AxisMouseOverlay.git"
+  },
+  "author": "Twu425",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twu425/3AxisMouseOverlay/issues"
+  },
+  "homepage": "https://github.com/twu425/3AxisMouseOverlay#readme",
+  "devDependencies": {
+    "electron": "^38.1.2"
+  }
+}
