@@ -1,27 +1,40 @@
 {
-  "name": "3axismouseoverlay",
+  "name": "my-app",
+  "productName": "my-app",
   "version": "1.0.0",
-  "description": "temp",
-  "main": "main.js",
+  "description": "My Electron application description",
+  "main": ".webpack/main",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/twu425/3AxisMouseOverlay.git"
+  "keywords": [],
+  "author": {
+    "name": "Tony Wu",
+    "email": "82834362+twu425@users.noreply.github.com"
   },
-  "author": "Twu425",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/twu425/3AxisMouseOverlay/issues"
-  },
-  "homepage": "https://github.com/twu425/3AxisMouseOverlay#readme",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^38.1.2"
+    "@electron-forge/cli": "^7.9.0",
+    "@electron-forge/maker-deb": "^7.9.0",
+    "@electron-forge/maker-rpm": "^7.9.0",
+    "@electron-forge/maker-squirrel": "^7.9.0",
+    "@electron-forge/maker-zip": "^7.9.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.9.0",
+    "@electron-forge/plugin-fuses": "^7.9.0",
+    "@electron-forge/plugin-webpack": "^7.9.0",
+    "@electron/fuses": "^1.8.0",
+    "@vercel/webpack-asset-relocator-loader": "^1.7.3",
+    "css-loader": "^6.11.0",
+    "electron": "38.1.2",
+    "node-loader": "^2.1.0",
+    "style-loader": "^3.3.4"
   },
   "dependencies": {
-    "node-hid": "^3.2.0",
+    "electron-squirrel-startup": "^1.0.1",
     "three": "^0.180.0"
   }
 }
