@@ -4,6 +4,7 @@
   "description": "temp",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/twu425/3AxisMouseOverlay#readme",
   "devDependencies": {
     "electron": "^38.1.2"
+  },
+  "dependencies": {
+    "node-hid": "^3.2.0",
+    "three": "^0.180.0"
   }
 }
