@@ -1,5 +1,6 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('node:path');
+const { openCustomHid } = require("./custom_hid");
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
