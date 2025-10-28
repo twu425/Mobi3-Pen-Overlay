@@ -4,7 +4,7 @@ A overlay for the Mobi3-Pen that renders it's reported position onto your screen
 ## Related Repositories:
 | Repository     | Link    |
 | -------------- | ------------- |
-| Build Guide    | [Mobi3-Pen](https://github.com/twu425/Mobi3-Pen-CircuitPython) |
+| Build Guide    | [Mobi3-Pen](https://github.com/twu425/Mobi3-Pen) |
 | Firmware       | [Mobi3-Pen-CircuitPython](https://github.com/twu425/Mobi3-Pen-CircuitPython)  |
 | Overlay        | *You are here!*  |
 | Blender Addon  | [Mobi3-Pen-BlenderAddon](https://github.com/twu425/Mobi3-Pen-BlenderAddon)  |
